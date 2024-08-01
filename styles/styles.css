@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    background-color: #444;
+    color: white;
+    font-size: 2em;
+    padding: 15px;
+    text-align: right;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+button {
+    flex: 1 1 25%;
+    padding: 25px;
+    border: 1px solid #ddd;
+    font-size: 1.5em;
+    background-color: #eee;
+    cursor: pointer;
+    outline: none;
+}
+
+.line-1, .line-2, .line-3, .line-4, .line-5 {
+    display: flex;
+}
+
+#number0 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+  
